@@ -2,16 +2,8 @@
   "version": 3,
   "pages404": true,
   "caseSensitive": false,
-  "basePath": "/james-noack",
+  "basePath": "",
   "redirects": [
-    {
-      "source": "/james-noack",
-      "destination": "/james-noack/",
-      "basePath": false,
-      "internal": true,
-      "statusCode": 308,
-      "regex": "^/james-noack$"
-    },
     {
       "source": "/:file((?!\\.well-known(?:/.*)?)(?:[^/]+/)*[^/]+\\.\\w+)/",
       "destination": "/:file",
